@@ -1,0 +1,136 @@
+$grid_cols : 16; /* this will be useful later */
+$max_width : 100%; /* a var for max width */
+$col_1_width : $max_width / $grid_cols;
+
+.wrapper {
+  
+    width: 85%;
+    display:table;
+    margin: 0 auto;
+    background: linear-gradient(#ffffff, #e8e8e4 99%);
+     text-align: justify;
+  }
+  
+  .row {
+      content: "";
+      clear: both;
+      display: block;            
+   }
+  .blue{
+    
+    background-color: blue;
+  }
+  
+  
+  [class*='col-'] {
+    float: left;
+    padding-right: 25px;
+    border: 1px solid red;
+  }
+  
+  [class*='col-']:last-of-type {
+    padding-right: 0;
+  }
+  
+  
+  .offset-1 {
+    
+    margin-left: $col_1_width;
+  }
+  
+  .offset-2 {
+    
+    margin-left: $col_1_width*2;
+  }
+  
+  .offset-3 {
+    
+    margin-left: $col_1_width*3;
+  }
+  
+  .offset-4 {
+    margin-left: $col_1_width*4;
+  
+  }
+  
+  .offset-5 {
+    margin-left: $col_1_width*5;
+  }
+  
+  .offset-6 {
+    margin-left: $col_1_width*6;
+  }
+  
+  .col-1 {
+    width: $col_1_width;
+    
+  }
+  
+  .col-2  {
+    width: $col_1_width*2;
+  }
+  
+  .col-3 {
+   width: $col_1_width*3;
+  }
+  
+  .col-4 {
+    
+    width: $col_1_width*4;
+  }
+  
+  .col-5 {
+    
+    width: $col_1_width*5;
+  }
+  
+  .col-6 {
+    width: $col_1_width*6;
+  }
+  
+  .col-7 {
+    width: $col_1_width*7;
+  }
+  
+  .col-8 {
+    
+    width: $col_1_width*8;
+  }
+  
+  .col-9 {
+    width: $col_1_width*9;
+  }
+  
+  .col-10 {
+      
+    width: $col_1_width*10;
+    
+  }
+  .col-11 {
+    
+    width: $col_1_width*11;
+  }
+  
+  .col-12 {
+    
+    width: $col_1_width*12;
+  }
+  
+  .col-13 {
+    
+   width: $col_1_width*13;
+  }
+  
+  .col-14 {
+   width: $col_1_width*14;
+  }
+  
+  .col-15 {
+    width: $col_1_width*15;
+  }
+  
+  .col-16 {
+    width: $col_1_width*16;
+  
+  }
+  

@@ -1,0 +1,119 @@
+/* this will be useful later */
+/* a var for max width */
+.wrapper {
+  width: 85%;
+  display: table;
+  margin: 0 auto;
+  background: linear-gradient(#ffffff, #e8e8e4 99%);
+  text-align: justify;
+}
+
+.row {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.blue {
+  background-color: blue;
+}
+
+[class*=col-] {
+  float: left;
+  padding-right: 25px;
+  border: 1px solid red;
+}
+
+[class*=col-]:last-of-type {
+  padding-right: 0;
+}
+
+.offset-1 {
+  margin-left: 6.25%;
+}
+
+.offset-2 {
+  margin-left: 12.5%;
+}
+
+.offset-3 {
+  margin-left: 18.75%;
+}
+
+.offset-4 {
+  margin-left: 25%;
+}
+
+.offset-5 {
+  margin-left: 31.25%;
+}
+
+.offset-6 {
+  margin-left: 37.5%;
+}
+
+.col-1 {
+  width: 6.25%;
+}
+
+.col-2 {
+  width: 12.5%;
+}
+
+.col-3 {
+  width: 18.75%;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-5 {
+  width: 31.25%;
+}
+
+.col-6 {
+  width: 37.5%;
+}
+
+.col-7 {
+  width: 43.75%;
+}
+
+.col-8 {
+  width: 50%;
+}
+
+.col-9 {
+  width: 56.25%;
+}
+
+.col-10 {
+  width: 62.5%;
+}
+
+.col-11 {
+  width: 68.75%;
+}
+
+.col-12 {
+  width: 75%;
+}
+
+.col-13 {
+  width: 81.25%;
+}
+
+.col-14 {
+  width: 87.5%;
+}
+
+.col-15 {
+  width: 93.75%;
+}
+
+.col-16 {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

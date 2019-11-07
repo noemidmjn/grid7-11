@@ -1,0 +1,63 @@
+body {
+    
+    font-family:  arial, sans-serif;
+    text-align: justify;   
+}
+
+h1 {
+  text-align: center; 
+}
+
+
+.nav ul li{
+       display: inline;
+       margin-left: 10px;
+}
+    
+
+.base-section {
+  
+  margin-top: 400px;
+  
+}
+
+.image_border {
+     box-shadow: 5px 5px 5px  #888888; 
+     float: left;
+}
+
+h2 { 
+    
+    text-align: center;
+    
+    
+}
+
+.sub_heading{
+    border-bottom: 5px solid #ff8b38;
+
+}
+
+
+p {
+    color: #86878b;
+    text-align: justify;
+    font-size: 12px;
+    
+}
+
+img {
+    max-width: 100%;   
+}
+    
+
+@media (max-width:450px){
+     
+    
+  h3 {
+    
+     text-align: center;
+  }
+}
+
+    

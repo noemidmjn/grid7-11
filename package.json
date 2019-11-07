@@ -1,0 +1,23 @@
+{
+  "name": "16-col-grid",
+  "version": "1.0.0",
+  "description": "For example purposes, I have created a mobile-first responsive grid. It is large, 16 columns - a 12 column grid should work in most cases. My rational for choosing the large number of columns is so the grid will be substantially reduced if it is going to be used for any assessed work.",
+  "main": "src/grid.css",
+  "author": "Joe Appleton",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch sass/main.scss:css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeappleton18/16-col-grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joeappleton18/16-col-grid/issues"
+  },
+  "homepage": "https://github.com/joeappleton18/16-col-grid#readme",
+  "devDependencies": {
+    "sass": "^1.23.3"
+  }
+}
